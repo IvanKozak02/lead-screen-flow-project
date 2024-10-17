@@ -91,14 +91,9 @@ const leads = [
 
 
 app.get('/', (req, res) => {
-    const leadsConv = JSON.parse(fs.readFileSync('C://Users//Ivan//WebstormProjects//leads-screen-flow//data//leads-data.json', 'utf-8'))
-    res.status(200).json(leadsConv);
+        res.status(200).json(leads);
 })
 
-app.post('/', (req, res) => {
-    const leadData = JSON.parse(fs.readFileSync('C://Users//Ivan//WebstormProjects//leads-screen-flow//data//leads-data.json', 'utf-8'));
-    leadData.push(req.body);
-})
 
 app.listen(3001, () => {
     console.log('APP IS RUNNING ON PORT 3001');
