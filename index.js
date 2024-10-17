@@ -91,7 +91,8 @@ const leads = [
 
 
 app.get('/', (req, res) => {
-        res.status(200).json(leads);
+    const leadsConv = JSON.parse(fs.readFileSync('C://Users//Ivan//WebstormProjects//leads-screen-flow//data//leads-data.json', 'utf-8'))
+    res.status(200).json(leadsConv);
 })
 
 app.post('/', (req, res) => {
