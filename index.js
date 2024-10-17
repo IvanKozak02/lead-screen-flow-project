@@ -1,6 +1,5 @@
 const express = require('express');
 const cors = require('cors');
-const fs = require("fs");
 
 const app = express();
 
@@ -8,11 +7,11 @@ app.use(express.json());
 
 const leads = [
     {
-        id: "00QQy00000CsC0TMAV",
+        id: "00QQy00000CsC0T",
         email: "vitalijohnson@example.com",
         phone: "+384554456335",
         lead_status: "Contacted",
-        annual_revenue: "200000",
+        annual_revenue: 200000,
         rating: "Warm"
     },
     {
@@ -20,7 +19,7 @@ const leads = [
         email: "petersmith@example.com",
         phone: "+5465673451",
         lead_status: "Closed Won",
-        annual_revenue: "100000",
+        annual_revenue: 100000,
         rating: "Hot"
     },
     {
@@ -28,7 +27,7 @@ const leads = [
         email: "johnsmith@example.com",
         phone: "+5432167890",
         lead_status: "In Review",
-        annual_revenue: "150000",
+        annual_revenue: 150000,
         rating: "Warm"
     },
     {
@@ -36,7 +35,7 @@ const leads = [
         email: "maryjones@example.com",
         phone: "+5498765432",
         lead_status: "Closed Won",
-        annual_revenue: "200000",
+        annual_revenue: 200000,
         rating: "Hot"
     },
     {
@@ -44,7 +43,7 @@ const leads = [
         email: "roberthall@example.com",
         phone: "+5487654321",
         lead_status: "Closed Lost",
-        annual_revenue: "75000",
+        annual_revenue: 75000,
         rating: "Cold"
     },
     {
@@ -52,7 +51,7 @@ const leads = [
         email: "emilyclark@example.com",
         phone: "+5412345678",
         lead_status: "In Review",
-        annual_revenue: "50000",
+        annual_revenue: 50000,
         rating: "Warm"
     },
     {
@@ -60,7 +59,7 @@ const leads = [
         email: "sarahbrown@example.com",
         phone: "+5476543210",
         lead_status: "Closed Won",
-        annual_revenue: "300000",
+        annual_revenue: 300000,
         rating: "Hot"
     },
     {
@@ -68,7 +67,7 @@ const leads = [
         email: "davidjohnson@example.com",
         phone: "+5467891234",
         lead_status: "In Review",
-        annual_revenue: "120000",
+        annual_revenue: 120000,
         rating: "Warm"
     },
     {
@@ -76,7 +75,7 @@ const leads = [
         email: "lindawilson@example.com",
         phone: "+5454321098",
         lead_status: "Closed Lost",
-        annual_revenue: "60000",
+        annual_revenue: 60000,
         rating: "Cold"
     },
     {
@@ -84,7 +83,7 @@ const leads = [
         email: "jameswhite@example.com",
         phone: "+5443219876",
         lead_status: "In Review",
-        annual_revenue: "80000",
+        annual_revenue: 80000,
         rating: "Warm"
     }
 ];
