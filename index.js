@@ -8,7 +8,8 @@ app.use(express.json());
 const leads = [
     {
         id: "00QQy00000CsC0T",
-        name: "Vitali Johnson",
+        first_name: "Vitali",
+        last_name: "Johnson",
         company: "PRT",
         email: "vitalijohnson@example.com",
         phone: "+384554456335",
@@ -18,7 +19,8 @@ const leads = [
     },
     {
         id: "00QQy00000CsC1U",
-        name: "Sophia Lee",
+        first_name: "Sophia",
+        last_name: "Lee",
         company: "TechWave",
         email: "sophia.lee@example.com",
         phone: "+14151234567",
@@ -28,7 +30,8 @@ const leads = [
     },
     {
         id: "00QQy00000CsC2V",
-        name: "James Smith",
+        first_name: "James",
+        last_name: "Smith",
         company: "Innovatech",
         email: "james.smith@example.com",
         phone: "+12345678901",
@@ -38,7 +41,8 @@ const leads = [
     },
     {
         id: "00QQy00000CsC3W",
-        name: "Emily Davis",
+        first_name: "Emily",
+        last_name: "Davis",
         company: "GreenWorld",
         email: "emily.davis@example.com",
         phone: "+447912345678",
@@ -48,7 +52,8 @@ const leads = [
     },
     {
         id: "00QQy00000CsC4X",
-        name: "Liam Brown",
+        first_name: "Liam",
+        last_name: "Brown",
         company: "Alpha Solutions",
         email: "liam.brown@example.com",
         phone: "+16135551234",
@@ -58,7 +63,8 @@ const leads = [
     },
     {
         id: "00QQy00000CsC5Y",
-        name: "Olivia Taylor",
+        first_name: "Olivia",
+        last_name: "Taylor",
         company: "BlueSky Corp",
         email: "olivia.taylor@example.com",
         phone: "+491234567890",
@@ -68,7 +74,8 @@ const leads = [
     },
     {
         id: "00QQy00000CsC6Z",
-        name: "Noah Wilson",
+        first_name: "Noah",
+        last_name: "Wilson",
         company: "Sunrise Global",
         email: "noah.wilson@example.com",
         phone: "+8613812345678",
@@ -78,7 +85,8 @@ const leads = [
     },
     {
         id: "00QQy00000CsC7A",
-        name: "Mia White",
+        first_name: "Mia",
+        last_name: "White",
         company: "Zenith Solutions",
         email: "mia.white@example.com",
         phone: "+61398765432",
@@ -88,7 +96,8 @@ const leads = [
     },
     {
         id: "00QQy00000CsC8B",
-        name: "William Harris",
+        first_name: "William",
+        last_name: "Harris",
         company: "NextGen Tech",
         email: "william.harris@example.com",
         phone: "+5511987654321",
@@ -98,7 +107,8 @@ const leads = [
     },
     {
         id: "00QQy00000CsC9C",
-        name: "Ava Martinez",
+        first_name: "Ava",
+        last_name: "Martinez",
         company: "Future Horizons",
         email: "ava.martinez@example.com",
         phone: "+34912345678",
@@ -107,6 +117,7 @@ const leads = [
         rating: "Cold"
     }
 ];
+
 
 
 
